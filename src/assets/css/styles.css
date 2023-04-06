@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    width: 100vw;
+    background-color: white;
+    height: 80px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    width: 65vw;
+    margin: 0 auto;
+}
+
+.logo img {
+    float: left;
+    width: 10%;
+    margin-top: 20px;
+}
+
+.menu-header p {
+    float: right;
+    margin-top: 25px;
+    font-size: 20px;
+
+}
+
+.menu-header img {
+    float: right;
+    margin-top: 17px;
+}
+
+.imovel h1 {
+    margin-top: 20px;
+    font-size: 30px;
+
+    font-weight: bold;
+    font-weight: 640;
+    margin-bottom: 40px;
+}
+
+.imovel p {
+
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.imovel {
+    width: 100%;
+}
+
+.fotos-imovel {
+    width: 100%;
+    height: 430px;
+
+}
+
+.box {
+    width: 25%;
+    float: left;
+}
+
+.inner {
+    margin-right: 10px;
+}
+
+.inner img {
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.menu-baixo {
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    height: 120px;
+}
+
+.menu-baixo h2 {
+
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.menu-baixo p {
+    margin-right: 35px;
+    margin-top: 35px;
+    font-weight: thin;
+    float: right;
+}
+
+.tamanho-casa {
+    width: 45%;
+
+}
+
+.tamanho-casa h3 {
+    font-size: 25px;
+    font-weight: 640;
+}
+
+.tamanho-casa h4 {
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+.valor-casa {
+    width: 18%;
+    height: 90px;
+    float: right;
+}
+
+.valor-casa p {
+    font-weight: bold;
+    font-size: 18px;
+    color: #ff5a5f;
+}
+
+.sobre {
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    height: 570px;
+}
+
+.sobre-espaco {
+    width: 50%;
+    float: left;
+}
+
+.sobre-espaco h2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 640;
+}
+
+.sobre-espaco ul {
+    list-style: none;
+}
+
+.sobre-espaco ul li {
+    margin-bottom: 20px;
+}
+
+.sobre-espaco ul li:first-child,
+ul li:nth-child(2) {
+    list-style-image: url(../img/iconepaisagem.png);
+
+}
+
+.sobre-espaco ul li:nth-child(3) {
+    list-style-image: url(../img/iconewifi.png);
+}
+
+.sobre-espaco ul li:nth-child(4) {
+    list-style-image: url(../img/iconecarro.png);
+}
+
+.sobre-espaco ul li:nth-child(5) {
+    list-style-image: url(../img/iconepraia.png);
+}
+
+.sobre-espaco ul li:nth-child(6) {
+    list-style-image: url(../img/iconecozinha.png);
+}
+
+.sobre-espaco ul li:nth-child(7) {
+    list-style-image: url(../img/iconemesa.png);
+}
+
+.sobre-espaco ul li:nth-child(8) {
+    list-style-image: url(../img/iconepiscina.png);
+}
+
+.description {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    float: right;
+    width: 50%;
+    height: 275px;
+}
+
+.description h2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 640;
+}
+
+.description p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.avaliations {
+    width: 50%;
+    float: right;
+}
+
+.avaliations h2 {
+    margin-top: 10px;
+}
+
+.avaliations h3 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
